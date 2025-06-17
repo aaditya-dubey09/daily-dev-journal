@@ -5,7 +5,7 @@ This project is a custom interactive **Drum Kit** built using HTML, CSS, and Van
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://jsdrum-beats.netlify.app)
 
-![Drum Kit Demo](https://github.com/aaditya-dubey09/Drum-Kit/blob/main/assets/demo.gif?raw=true)
+![Drum Kit Demo](https://github.com/aaditya-dubey09/daily-dev-journal/Drum-Kit/blob/main/assets/demo.gif?raw=true)
 
 ---
 
@@ -25,13 +25,16 @@ This project is a custom interactive **Drum Kit** built using HTML, CSS, and Van
 ## 📂 Folder Structure
 
 ```
-drum-kit/
-├── index.html            # HTML structure
-├── style.css             # UI styling and animations
-├── script.js             # Drum kit logic
-└── assets/
-    ├── *.mp3             # Drum sounds
-    └── cursor.png        # Custom pointer image
+Drum-Kit/
+├── README.md
+├── index.html # HTML structure
+├── style.css # UI styling and animations
+├── script.js # Drum kit logic
+├── assets/
+│ ├── cursor.png # Custom pointer image
+│ ├── background.jpg # Page background
+│ └── sounds/ # Drum audio (.wav) files
+
 ```
 
 ---
@@ -99,7 +102,10 @@ drum-kit/
 
 **Aaditya Dubey**  
 📍 Varanasi, India  
-🌐 [GitHub Profile](https://github.com/aaditya-dubey09)
+<a href="https://linkedin.com/in/aadityadubey" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: inherit; color: aquamarine;">
+  <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn Icon" style="width: 20px; height: 20px;" />
+  LinkedIn Profile
+</a>
 
 ---
 
@@ -108,6 +114,5 @@ drum-kit/
 This project is licensed under the **MIT License** — feel free to use, remix, and build upon it!
 
 ---
-
 > "One day or day one. You decide."  
 > — Let’s build 30 projects in 30 days!
