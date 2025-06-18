@@ -93,7 +93,10 @@ Clock/
 
 **Aaditya Dubey**  
 📍 Varanasi, India  
-[![LinkedIn Icon](https://img.icons8.com/?size=100&id=13930&format=png&color=000000)](https://linkedin.com/in/aadityadubey)
+<a href="https://linkedin.com/in/aadityadubey" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: inherit; color: aquamarine;">
+  <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" alt="LinkedIn Icon" style="width: 20px; height: 20px;" />
+  LinkedIn Profile
+</a>
 
 ---
 
