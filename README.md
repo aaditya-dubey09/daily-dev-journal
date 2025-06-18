@@ -22,9 +22,9 @@ This repository is a daily log of my 30day JavaScript coding challenge. It inclu
 
 ## 🔥 Streak & Commitment
 
-📅 **Goal:** Commit daily with new learnings.
-🛠 **Focus Areas:** Web Development (JavaScript, React, etc.)
-🎯 **Long-Term Vision:** Master Full-Stack Development by 2027
+- 📅 **Goal:** Commit daily with new learnings.
+- 🛠 **Focus Areas:** Web Development (JavaScript, React, etc.)
+- 🎯 **Long-Term Vision:** Master Full-Stack Development by 2027
 
 ## 🚀 How to Use This Repo
 
