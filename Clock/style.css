@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url(./assets/cursor.cur) 8 8, auto;
+}
+
+#loading-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(145deg, rgb(147, 192, 255), #005ac1);
+  width: 0;
+  z-index: 1000;
+  transition: width 3s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  border-radius: 50px;
+  background: linear-gradient(135deg, #497397, #000000);
+  box-shadow: 5px 5px 15px #000000 inset;
+  width: 15px;
+  height: auto;
+  border: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: linear-gradient(145deg, rgb(1, 73, 174), #003674);
+  box-shadow: 5px 5px 15px #000000 inset;
+  border: 0;
+}
+
+html {
+  scrollbar-gutter: stable;
+  overflow: overlay;
+}
+
+.hidden {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+html {
+  background: linear-gradient(45deg, #018bed, #003b65, #001e33);
+  background-size: cover;
+  font-family: 'helvetica neue';
+  text-align: center;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.outer-loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 5px solid #001e33;
+
+  background: radial-gradient(circle at 30% 30%, #003c66, #001e33);
+  box-shadow:
+    inset 3px 3px 6px rgba(255, 255, 255, 0.1),
+    inset -3px -3px 6px rgba(0, 0, 0, 0.3),
+    3px 3px 10px rgba(0, 0, 0, 0.7);
+
+  z-index: 12;
+}
+
+
+.inner-loader {
+  background: transparent;
+  position: absolute;
+  border: 5px solid transparent;
+  border-top: 5px solid rgb(4, 75, 125);
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  margin-left: -35px;
+  margin-top: -35px;
+  z-index: 13;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+
+.clock-container {
+  margin: 100px auto;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.glass {
+  box-shadow: inset 10px 10px 15px;
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  backdrop-filter: blur(10px) saturate(120%);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20%;
+}
+
+.clock {
+  width: 30rem;
+  height: 30rem;
+  border: 20px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  padding: 2rem;
+  box-shadow:
+    0 0 0 4px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px black,
+    0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-3px);
+  /* account for the height of the clock hands */
+}
+
+.center-dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, #ffffff, #cccccc);
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.time {
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 2rem;
+  box-shadow:
+    0 0 0 4px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px black,
+    0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.digital-time {
+  margin: 20px;
+}
+
+.date-info {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .clock-container {
+    padding: 30px;
+  }
+
+  .clock-face {
+    width: 280px;
+    height: 280px;
+  }
+
+  .hour-hand {
+    height: 60px;
+  }
+
+  .min-hand {
+    height: 90px;
+  }
+
+  .second-hand {
+    height: 110px;
+  }
+
+  .time {
+    font-size: 2rem;
+  }
+}
