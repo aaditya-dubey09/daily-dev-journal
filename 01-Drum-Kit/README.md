@@ -5,7 +5,7 @@ This project is a custom interactive **Drum Kit** built using HTML, CSS, and Van
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://jsdrum-beats.netlify.app)
 
-![Drum Kit Demo](https://github.com/aaditya-dubey09/daily-dev-journal/Drum-Kit/blob/main/assets/demo.gif?raw=true)
+![Drum Kit Demo](https://github.com/aaditya-dubey09/daily-dev-journal/blob/main/01-Drum-Kit/assets/demo.gif?raw=true)
 
 ---
 

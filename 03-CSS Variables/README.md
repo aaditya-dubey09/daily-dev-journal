@@ -3,7 +3,7 @@
 Welcome to **Day 3** of my self-paced **30-Day JavaScript Challenge**! 🚀  
 In this project, I explored **CSS Variables** and how to dynamically control them using **Vanilla JavaScript**. Users can change the **spacing**, **blur**, and **background color** of an image in real-time using sliders and a color picker — all driven by DOM interactions and custom properties.
 
-![CSS Variables Demo](https://github.com/aaditya-dubey09/daily-dev-journal/blob/main/CSS-Variables/assets/demo.gif?raw=true)
+![CSS Variables Demo](https://github.com/aaditya-dubey09/daily-dev-journal/blob/main/03-CSS%20Variables/assets/demo.gif?raw=true)
 
 ---
 

@@ -3,7 +3,7 @@
 Welcome to **Day 2** of my self-paced **30-Day JavaScript Challenge**! 🚀  
 This project is a custom **Analog Clock** built using **HTML, CSS**, and **Vanilla JavaScript**. It reflects the real-time system clock and showcases clean transitions and visual feedback using pure frontend code.
 
-![Clock Demo](https://github.com/aaditya-dubey09/daily-dev-journal/Clock/blob/main/assets/demo.gif?raw=true)
+![Clock Demo](https://github.com/aaditya-dubey09/daily-dev-journal/blob/main/02-Clock/assets/demo.gif?raw=true)
 
 ---
 
