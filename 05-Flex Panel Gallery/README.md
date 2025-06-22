@@ -4,7 +4,7 @@ Welcome to **Day 5** of my self-paced **30-Day JavaScript Challenge**! 🚀
 Today’s challenge was all about creating an interactive **image gallery using Flexbox** and **JavaScript** transitions.  
 Each panel expands with a satisfying animation when clicked — revealing an expressive message in three parts.
 
-![Demo](https://github.com/aaditya-dubey09/daily-dev-journal/blob/main/05-Flex%20Panel%20Gallery/assets/demo.png?raw=true)
+![Demo](https://github.com/aaditya-dubey09/daily-dev-journal/blob/main/05-Flex%20Panel%20Gallery/assets/demo.gif?raw=true)
 
 ---
 
