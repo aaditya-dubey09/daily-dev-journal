@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Array Cardio 💪💪</title>
+  <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+<style>
+  /*
+    Greetings, fellow developer! Hope this little piece of digital opulence sparks some joy in your day.
+    May your code be elegant and your debugging swift. This is nothing more than a project or learning from one of mine 30 day javascript challenge 2025.
+  */
+
+  /* ======== Please scroll to the bottom for the exercise and learning topics - these are just styles ========= */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 50px;
+    z-index: 0;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 900;
+    background: linear-gradient(135deg, #4b3621, #8B735C, #6D5642);
+    font-family: 'Bonheur Royale', cursive, 'Times New Roman', serif;
+    color: #F8F8F8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px);
+    padding: 30px;
+    background-color: #1A1713;
+    border: 5px solid #C8AE7D;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+  }
+
+  ::-webkit-scrollbar {
+    border-radius: 50px;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    box-shadow: 5px 5px 15px #000000 inset;
+    width: 15px;
+    height: auto;
+    border: 0;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: linear-gradient(145deg, rgb(255, 136, 0), #b44b00);
+    box-shadow: 5px 5px 15px #000000 inset;
+    border: 0;
+  }
+
+  div {
+    margin: 40px;
+    padding: 30px;
+    z-index: 2;
+    background-color: #FFDDAA;
+    color: #36220B;
+    border: 3px solid #A88F6D;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
+
+  div p {
+    font-style: italic;
+    letter-spacing: 1px;
+  }
+
+  /* --- Keyframe Animations for the Flashes --- */
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: scaleY(0);
+    }
+
+    10% {
+      opacity: 0.8;
+      transform: scaleY(1);
+    }
+
+    30% {
+      opacity: 0;
+      transform: scaleY(0);
+    }
+
+    100% {
+      opacity: 0;
+      transform: scaleY(0);
+    }
+  }
+
+  /* --- Pseudo-elements for the Flashes --- */
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 8%;
+    height: 150px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), transparent);
+    opacity: 0;
+    transform-origin: top center;
+    transform: scaleY(0);
+    animation: fadeInOut 2s infinite cubic-bezier(0.4, 0.0, 0.2, 1) 0.2s;
+    pointer-events: none;
+  }
+
+  body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 10%;
+    height: 180px;
+    background: linear-gradient(to bottom, rgba(255, 255, 200, 0.6), transparent);
+    opacity: 0;
+    transform-origin: top center;
+    transform: scaleY(0);
+    animation: fadeInOut 2.5s infinite cubic-bezier(0.4, 0.0, 0.2, 1) 0.8s;
+    pointer-events: none;
+  }
+
+  body::before,
+  body::after {
+    z-index: 1;
+  }
+
+  body::before {
+    content: '';
+    left: 55%;
+    width: 7%;
+    height: 160px;
+    animation-delay: 1.4s;
+  }
+
+  body::after {
+    content: '';
+    left: 75%;
+    width: 9%;
+    height: 170px;
+    animation-delay: 1.9s;
+  }
+
+  body::before {
+    content: '';
+    left: 40%;
+    width: 6%;
+    height: 140px;
+    animation-delay: 0.5s;
+    filter: blur(2px);
+  }
+</style>
+</head>
+
+<body>
+  <main>
+    <div>
+      <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
+    </div>
+  </main>
+  <script>
+    // ## Array Cardio Day 2
+
+    const people = [
+      { name: 'Wes', year: 1988 },
+      { name: 'Kait', year: 1986 },
+      { name: 'Irv', year: 1970 },
+      { name: 'Lux', year: 2015 }
+    ];
+
+    const comments = [
+      { text: 'Love this!', id: 523423 },
+      { text: 'Super good', id: 823423 },
+      { text: 'You are the best', id: 2039842 },
+      { text: 'Ramen is my fav food ever', id: 123523 },
+      { text: 'Nice Nice Nice!', id: 542328 }
+    ];
+
+    // Some and Every Checks
+    // Array.prototype.some() // is at least one person 19 or older?
+    
+    // const isAdult = people.some(function(person) {
+    //   if(currentYear - person.year >= 19) {
+    //     return true;
+    //   }
+    // });
+    
+    const isAdult = people.some(person => ((new Date()).getFullYear()) - person.year >= 19 );
+
+    console.log({isAdult});
+
+    // Array.prototype.every() // is everyone 19 or older?
+    const allAdults = people.every(person => ((new Date()).getFullYear()) - person.year >= 19);
+
+    console.log(allAdults);
+
+    // Array.prototype.find()
+    // Find is like filter, but instead returns just the one you are looking for
+    // find the comment with the ID of 823423
+
+    // const comment = comments.find(comment => comment.id === 823423 ? true : false);
+    // Or const comment = comments.find(comment => comment.id === 823423 );
+    // console.log(comment);
+
+    const comment = comments.find(function (comment) {
+      if(comment.id === 823423) {
+        return true;
+      }
+    });
+    console.log(comment);
+    // Array.prototype.findIndex()
+    // Find the comment with this ID
+    // delete the comment with the ID of 823423
+    const index = comments.findIndex(comment => comment.id === 823423);
+    console.log(index);
+    // comments.splice(index, 1);
+    const newComments = [
+      ...comments.slice(0, index),
+      ...comments.slice(index + 1)
+    ];
+
+  </script>
+</body>
+</html>
