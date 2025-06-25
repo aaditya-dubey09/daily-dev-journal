@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+  <link rel="icon" href="https://fav.farm/👨‍💻" />
+  <!-- Remove the console.clear statement from the following code snippet: than check the console again. -->
+  <style>
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 50px;
+      -webkit-appearance: none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      width: 60%;
+      height: 60%;
+      background-color: rgba(255, 0, 0, 0.7);
+      border-radius: 50px;
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+      transition: background-color 5s;
+    }
+
+    body {
+            font-family: 'Courier New', Courier, monospace, sans-serif;
+            background-color: black;
+            color: green;
+            font-weight: 500;
+            letter-spacing: 5px;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+          font-size: 50px;
+          margin-top: 20px;
+          cursor: crosshair;
+          animation: fadeInOut 5s linear alternate-reverse;
+          filter: drop-shadow(0 0 5px rgba(255, 0, 0, 0.5));
+          transition: filter .5s;
+          transform: scale(1);
+          user-select: none;
+        }
+
+        p:hover {
+          filter: drop-shadow(0 0 10px rgba(0, 225, 0, 1));
+        }
+
+        @keyframes fadeInOut {
+          from { opacity: 1; }
+          to { opacity: 0; }
+        }
+  </style>
+</head>
+<body>
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = 'rgba(255,0,0,1)';
+      p.style.fontSize = '100px';
+      p.style.textShadow = '10px 10px 10px rgba(0, 0, 225, 0.8)';
+      p.style.fontFamily = 'Courier';
+      p.style.fontStretch = '50px';
+    }
+
+    // Regular
+    console.log('hello')
+
+    // Interpolated
+    console.log('hello I am a %s string!', '💩')
+
+    // Styled
+    console.log('%c I am a some great text', 'font-size: 20px; color: transparent; background: linear-gradient(to right, #ff0000, #ff7300); background-clip: text; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);')
+
+    // warning!
+    console.warn('Oh Noo');
+
+    // Error :|
+    console.error('Shit!');
+
+    // Info
+    console.info('Crocodiles eat 4-5 people per year');
+
+    // Testing
+    const p = document.querySelector('p');
+    console.assert(p.classList.contains('ouch'), 'That\'s wrong!');
+
+    console.assert(1 === 2, 'That\'s wrong!');
+
+    // Viewing DOM Elements
+    console.log(p);
+    console.dir(p);
+
+    // Grouping together
+    dogs.forEach(dog => {
+      console.groupCollapsed(`${dog.name}`);
+      console.log(`This is ${dog.name}`);
+      console.log(`${dog.name} is ${dog.age} years old`);
+      console.log(`${dog.name} is ${dog.age * 7} years old`);
+      console.groupEnd(`${dog.name}`);
+    })
+
+    // counting
+    console.count('Aaditya');
+    console.count('Aaditya');
+    console.count('Wes');
+    console.count('Aaditya');
+    
+    // timing
+    // console.time('fetching data');
+    // fetch('https://api.github.com/users/aaditya-dubey09')
+    // .then(data => data.json())
+    // .then(data => {
+    //   console.timeEnd('fetching data');
+    //   console.log(data);
+    // })
+
+    // table
+    console.table(dogs);
+
+
+  // clearing
+  console.clear();
+
+  // custom log
+  console.log('%c Hey what\'s up!', 'background-color: black; color: white; padding: 5px; border-radius: 5px;');
+  console.log(
+      '%c Go Check The Code Now!',
+      'font-size: 40px;' +
+      'color: white;' +
+      'text-shadow: ' +
+      '2px 2px 0px rgba(255, 0, 0, 0.7), ' +
+      '-2px -2px 0px rgba(128, 0, 128, 0.7), ' +
+      '4px -4px 0px rgba(0, 0, 255, 0.7), ' +
+      '-4px 4px 0px rgba(255, 165, 0, 0.7);'
+    );
+
+  </script>
+</body>
+</html>
