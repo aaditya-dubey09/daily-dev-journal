@@ -80,7 +80,7 @@ Experience all projects live on GitHub Pages:
 | 14 | References | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/14-JS%20References%20vs%20Copying/) | JS references vs copies |
 | 15 | Local Storage | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/15-LocalStorage/) | Persistent to-do list |
 | 16 | Mouse Shadow | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/16-Mouse%20Move%20Shadow/) | Dynamic text shadows |
-| 17 | Sorting | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/17-Sort%20Without%20Articales) | Smart text sorting |
+| 17 | Sorting | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/17-Sort%20Without%20Articles) | Smart text sorting |
 | 18 | Time Calculator | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/18-Adding%20up%20Time%20with%20Reduce/) | Video duration sum |
 | 19 | Webcam Fun | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/19-Webcam%20Fun/)| Photo filters & effects |
 | 20 | Speech Detection | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/20-Speech%20Detection/) | Voice-to-text interface |
@@ -93,7 +93,7 @@ Experience all projects live on GitHub Pages:
 | 27 | Click & Drag | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/27-Click%20and%20Drag/) | Drag scrolling interface |
 | 28 | Video Speed | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/28-Video%20Speed%20Controller/) | Playback speed control |
 | 29 | Countdown Timer | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/29-Countdown%20Timer/) | Custom timer application |
-| 30 | Whack-a-Mole Pro | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/30-Whack%20A%20MolePro/) | Modern arcade game |
+| 30 | Whack-a-Mole Pro | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/30-Whack%20A%20Mole/) | Modern arcade game |
 
 ---
 
