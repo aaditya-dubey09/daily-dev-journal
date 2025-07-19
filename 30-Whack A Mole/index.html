@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whack-a-Mole!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://fav.farm/🔥" />
+</head>
+<body>
+  <div class="header">
+    <h1 class="title">Whack-a-Mole Pro</h1>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-value score">0</div>
+      <div class="stat-label">Score</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value high-score">0</div>
+      <div class="stat-label">Best</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value time-left">30</div>
+      <div class="stat-label">Time</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value hit-rate">0%</div>
+      <div class="stat-label">Accuracy</div>
+    </div>
+  </div>
+
+  <div class="game-controls">
+    <div class="difficulty-selector">
+      <button class="difficulty-btn active" data-difficulty="easy">Easy</button>
+      <button class="difficulty-btn" data-difficulty="normal">Normal</button>
+      <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+      <button class="difficulty-btn" data-difficulty="insane">Insane</button>
+    </div>
+    <button class="btn btn-primary start-btn">Start Game</button>
+    <button class="btn btn-secondary pause-btn" disabled>Pause</button>
+  </div>
+
+  <div class="game-container">
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+
+    <div class="game-grid">
+      <div class="hole hole1">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole2">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole3">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole4">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole5">
+        <div class="mole"></div>
+      </div>
+      <div class="hole hole6">
+        <div class="mole"></div>
+      </div>
+    </div>
+
+    <div class="game-over">
+      <h2>Game Over!</h2>
+      <div class="final-score">0</div>
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <div class="stat-label">Final Accuracy</div>
+        <div class="stat-value final-accuracy">0%</div>
+      </div>
+      <button class="btn btn-primary play-again-btn">Play Again</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
