@@ -73,7 +73,7 @@ Experience all projects live on GitHub Pages:
 | 07 | Array Cardio 2 | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/07-Array%20Cardio%20Day%202/) | Advanced array methods |
 | 08 | HTML Canvas | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/08-Fun%20with%20HTML%20Canvas/) | Drawing application |
 | 09 | Dev Tools | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/09-Dev%20Tools%20Domination/) | Console tricks & tips |
-| 10 | Checkboxes | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/10-Hold%20Shift%20Check%20Multiple%20Checkboxes/) | Multiple selection UI |
+| 10 | Checkboxes | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/10-Hold%20Shift%20and%20Check%20Multiple%20Checkboxes/) | Multiple selection UI |
 | 11 | Video Player | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/11-Custom%20HTML5%20Video%20Player/) | Custom HTML5 controls |
 | 12 | Key Detection | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/12-Key%20Sequence%20Detection/) | Secret code sequences |
 | 13 | Slide on Scroll | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/13-Slide%20on%20Scroll/) | Scroll animations |
@@ -88,7 +88,7 @@ Experience all projects live on GitHub Pages:
 | 22 | Link Follower | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/22-Follow%20Along%20Link%20Highlighter/) | Dynamic link highlighting |
 | 23 | Speech Synth | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/23-Speech%20Synthesis/) | Web Audio synthesizer |
 | 24 | Sticky Nav | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/24-Sticky%20Nav/) | Fixed navigation scroll |
-| 25 | Event Capture | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/25-Event%20Capture%2C%20Propogation%2CBubbling%20and%20Once/) | Event propagation demo |
+| 25 | Event Capture | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/25-Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once/) | Event propagation demo |
 | 26 | Stripe Navigation | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/26-Stripe%20Follow%20Along%20Nav/) | Animated dropdown menu |
 | 27 | Click & Drag | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/27-Click%20and%20Drag/) | Drag scrolling interface |
 | 28 | Video Speed | [🔗 Demo](https://aaditya-dubey09.github.io/daily-dev-journal/28-Video%20Speed%20Controller/) | Playback speed control |
